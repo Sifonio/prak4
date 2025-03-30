@@ -9,7 +9,7 @@ int main() {
         return 0;
     }
 
-    printf("Memory allocated successfully\n");
+    printf("Успіх виділення пам'яті\n");
     void *new_ptr = realloc(ptr, large_size);
 
     if (!new_ptr) {
